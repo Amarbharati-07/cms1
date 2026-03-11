@@ -1,0 +1,14 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K12:24:47 PM [express] serving on port 5000
+12:24:54 PM [express] GET /api/auth/me 401 in 2ms :: {"message":"Unauthorized"}
+[2m12:24:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ new dependencies optimized: [33mtailwindcss-animate, @tailwindcss/typography[32m[39m
+[2m12:24:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ optimized dependencies changed. reloading[39m
+12:24:59 PM [express] GET /api/auth/me 401 in 0ms :: {"message":"Unauthorized"}
+12:26:26 PM [express] POST /api/auth/login 200 in 80ms :: {"id":2,"email":"candidate1@fieldtrack.com","role":"CANDIDATE"}
+12:26:26 PM [express] GET /api/candidate/profile 200 in 4ms :: {"id":1,"userId":2,"fullName":"Rahul Sharma","age":24,"state":"Rajasthan","phone":"9810001001","address":null,"education":null,"achievements":null,"bio":null,"profilePhoto":null,"resume":null,"certificates":null}
+12:26:29 PM [express] GET /api/candidate/tasks 200 in 5ms :: []
+12:26:31 PM [express] POST /api/auth/logout 200 in 1ms :: {"message":"Logged out successfully"}
+12:26:31 PM [express] GET /api/auth/me 401 in 1ms :: {"message":"Unauthorized"}
